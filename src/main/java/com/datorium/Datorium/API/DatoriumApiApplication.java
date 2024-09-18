@@ -13,7 +13,7 @@ public class DatoriumApiApplication {
 	public static void main(String[] args) {
 		var userService = new UserService();
 
-		System.out.println(userService.getFullName("Oskars", "Klaumanis"));
+		System.out.println(userService.getFullName("Līga", "Cīrule"));
 		SpringApplication.run(DatoriumApiApplication.class, args);
 	}
 }
